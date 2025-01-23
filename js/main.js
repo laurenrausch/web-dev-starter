@@ -7,12 +7,37 @@
  */
 
 /**
- * This function prints the string 'Hello World' to the console
+ * This function dislays and alert the string 'Hello World' on the webpage
  */
-export function helloWorld() {
-    console.log('Hello World');
+
+export function helloWorldPopup() {
+    alert('Hello World!!');
 }
 
+/**
+ * This function dislays and alert the name string on the webpage
+ */
+export function myName() {
+    alert('Lauren Rausch but I go by Ren.')
+}
+/**
+ * This function dislays and alert the a graduation information string on the webpage
+ */
+export function myGraduation() {
+    alert('I am hoping to graduate Decemeber 2025, but it may be May 2026.')
+}
+/**
+ * This function dislays and alert the job information string on the webpage
+ */
+export function myJob() {
+    alert('I do not have a job in web development currenlty, but I hope to get one eventually!')
+}
+/**
+ * This function dislays and alert the experience information string on the webpage
+ */
+export function myExperience() {
+    alert('I have not had an internship in web development but I am hoping to get one for this summer!')
+}
 /**
  * This function adds two numbers together and returns the sum. This demonstrates
  * how to pass parameters to a function and return a value from a function

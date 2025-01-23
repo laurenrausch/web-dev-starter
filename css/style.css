@@ -1,4 +1,37 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+h1 {
+  font-family: 'Arial';
+  text-align: center;
+  border-color: #f383d3;
+  border-style: groove;
+  color: rgb(113, 119, 243);
+  background-color: rgb(204, 174, 232);
+}
+
+p {
+  font-family: 'Arial';
+  color: rgb(201, 13, 29);
+  font-weight: bold;
+}
+
+button {
+  font-family: 'Arial';
+  font-weight: bold;
+  color: rgb(11, 112, 114);
+  border-color: #aabd18;
+}
+
+label {
+  font-family: 'Arial';
+  color: rgb(172, 103, 5);
+  text-decoration: underline;
+
+}
+
+h4 {
+  font-family: 'Arial';
+  color: rgb(208, 86, 165)
+}
+
+body {
+  background: linear-gradient(to bottom, #fefcfd, #f2cd88);
 }
