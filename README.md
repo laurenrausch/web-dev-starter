@@ -38,8 +38,13 @@ From here you should be able to use the website and get the desired results!
 ### Outside Sources 
 
 “Pin by Gabriela on Resort: Snoopy Wallpaper, Snoopy Drawing, Snoopy Images.” Pinterest, 30 Sept. 2024, www.pinterest.com/pin/730638739580510302/. Accessed 22 Jan. 2025. 
+
 “QUnit.Test().” QUnit, qunitjs.com/api/QUnit/test/. Accessed 22 Jan. 2025. 
+
 “W3schools.Com.” HTML Font Tag, www.w3schools.com/tags/tag_font.asp. Accessed 22 Jan. 2025. 
+
 “W3schools.Com.” W3Schools Online Web Tutorials, www.w3schools.com/html/html_headings.asp. Accessed 22 Jan. 2025. 
+
 “W3schools.Com.” W3Schools Online Web Tutorials, www.w3schools.com/html/html_styles.asp. Accessed 22 Jan. 2025. 
-“Woodstock (Peanuts).” Wikipedia, Wikimedia Foundation, 19 Jan. 2025, en.wikipedia.org/wiki/Woodstock_%28Peanuts%29. Accessed 22 Jan. 2025. 
+“
+Woodstock (Peanuts).” Wikipedia, Wikimedia Foundation, 19 Jan. 2025, en.wikipedia.org/wiki/Woodstock_%28Peanuts%29. Accessed 22 Jan. 2025. 

@@ -1,4 +1,4 @@
-import { helloWorld, add, helloWorldPopup, myName, myExperience, myGraduation, myJob } from '../js/main.js';
+import { add, helloWorldPopup, myName, myExperience, myGraduation, myJob } from '../js/main.js';
 // Import the sinon library to allow us to create a spy on the console.log function
 
 QUnit.module('main.js tests', function () {
@@ -15,7 +15,7 @@ QUnit.module('main.js tests', function () {
         global.alert = a;
     });
 
-    QUnit.test('myName should alert with my name', function (assert) {
+    QUnit.test('myName should alert with my name string', function (assert) {
         assert.expect(1);
         var n = global.alert;
         global.alert = function (message) {
@@ -26,7 +26,7 @@ QUnit.module('main.js tests', function () {
         global.alert = n;
     });
 
-    QUnit.test('myGraduation should alert with my graduation', function (assert) {
+    QUnit.test('myGraduation should alert with my graduation string', function (assert) {
         assert.expect(1);
         var g = global.alert;
         global.alert = function (message) {
@@ -37,7 +37,7 @@ QUnit.module('main.js tests', function () {
         global.alert = g;
     });
 
-    QUnit.test('myJob should alert with my job', function (assert) {
+    QUnit.test('myJob should alert with my job string', function (assert) {
         assert.expect(1);
         var j = global.alert;
         global.alert = function (message) {
@@ -49,7 +49,7 @@ QUnit.module('main.js tests', function () {
         global.alert = j;
     });
 
-    QUnit.test('myExperience should alert with my experience', function (assert) {
+    QUnit.test('myExperience should alert with my experience string', function (assert) {
         assert.expect(1);
         var e = global.alert;
         global.alert = function (message) {
@@ -96,13 +96,35 @@ QUnit.module('main.js tests', function () {
 
     QUnit.test('add should return the sum of a large positive and a large negative number', function (assert) {
         //Arrange
-        const num1 = -5000;
-        const num2 = 9600;
-        const expected = 4600;
+        const num1 = -5006700;
+        const num2 = 96004003;
+        const expected = 90997303;
         //Act
         const result = add(num1, num2);
         //Assert
-        assert.equal(result, expected, 'add(-5000, 9600) should return 4600');
+        assert.equal(result, expected, 'add(-5006700, 96004003) should return 90997303');
+    });
+
+    QUnit.test('add should return the sum of two large negative numbers', function (assert) {
+        //Arrange
+        const num1 = -345900;
+        const num2 = -678890;
+        const expected = -1024790;
+        //Act
+        const result = add(num1, num2);
+        //Assert
+        assert.equal(result, expected, 'add(-345900, -678890) should return -1024790');
+    });
+
+    QUnit.test('add should return the sum of two large positive numbers', function (assert) {
+        //Arrange
+        const num1 = 1230097;
+        const num2 = 3450076;
+        const expected = 4680173;
+        //Act
+        const result = add(num1, num2);
+        //Assert
+        assert.equal(result, expected, 'add(1230097, 3450076) should return 4680173');
     });
 
 });
