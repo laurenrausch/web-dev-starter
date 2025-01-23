@@ -25,15 +25,17 @@ This will execute all of the tests which should all pass!
 
 ## Step Three
 
-To run the website within VSCode you can either run it through the built in Run and Debug tool in VSCode or with these key strokes:
-
-    Ctrl+Shift+D
-Or you can run it through Live Preview (I did find it hit and miss for the pop ups to work so I recommend the first way.), run it with the following commands: 
+You can run the website through Live Preview which will start ther server for the webpage, run it with the following keystroke: 
 
     Ctrl+Shift+P
     Live Preview: Start Sever
 
-From here you should be able to use the website and get the desired results!
+From here you should be able to use the website and get the desired results! Click Away!
+You can also use the same URL from the live preview and user it in an actual browser page and be able to see the same result. 
+
+You can also run the website within VSCode through the built in Run and Debug tool in VSCode or with these key strokes:
+
+    Ctrl+Shift+D
 
 ### Outside Sources 
 
