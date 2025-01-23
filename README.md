@@ -25,7 +25,7 @@ This will execute all of the tests which should all pass!
 
 ## Step Three
 
-You can run the website through Live Preview which will start ther server for the webpage, run it with the following keystroke: 
+You can run the website through Live Preview VSCose extension which will start ther server for the webpage, run it with the following keystroke: 
 
     Ctrl+Shift+P
     Live Preview: Start Sever
